@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $VeryLightGrayishBlue;
+    background-image: url(/images/bg-top.svg), url(/images/bg-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .header{
+        font-size: 30px;
+        color: #636678;
+    }
+    .toggle{
+        h3{
+            font-size: 15px;
+            color: $LightGrayishBlue;
+        }
+    }
+    .box{
+        width: 1000px;
+        height: 500px;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .sub-box1{
+            padding: 2rem 0rem;
+            border-radius: 0.5rem;
+            background-color: white;
+            width: 33%;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            color: $DarkGrayishBlue;
+            box-shadow: 0px 10px 20px rgba(160, 160, 160, 0.139);
+            hr{
+                width: 80%;
+                border: 0.5px solid rgba(201, 201, 201, 0.651);
+            }
+            h2{
+                font-size: 18px;
+            }
+            .price1-monthly{
+                padding: 1.5rem 0rem;
+                display: flex;
+                align-items: center;
+                font-size: 65px;
+                span{
+                    font-size: 38px;
+                    padding-right: 0.5rem;
+                }
+            }
+            .hide{
+                display: none;
+            }
+            .price1-annually{
+                display: flex;
+                padding: 1.5rem 0rem;
+                align-items: center;
+                font-size: 65px;
+                display: none;
+                span{
+                    font-size: 38px;
+                    padding-right: 0.5rem;
+                }
+            }
+            .show{
+                display: flex;
+            }
+            p{
+                padding: 0.7rem 0rem;
+                font-size: 13px;
+            }
+            .learn-more{
+                width: 80%;
+                font-size: 13px;
+                letter-spacing: 0.1rem;
+                text-align: center;
+                padding: 0.7rem 0rem;
+                margin-top: 2.3rem;
+                color: white;
+                text-transform:uppercase ;
+                border-radius: 0.3rem;
+                background-image: linear-gradient(to bottom,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+                background: linear-gradient(to bottom,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+            }
+            .learn-more:hover{
+                background-image: none;
+                background-color: white;
+                color: hsl(237, 63%, 64%);
+                border: 1px solid hsl(237, 63%, 64%);
+            }
+        }
+        .sub-box2{
+            height: 450px;
+            border-radius: 0.5rem;
+            background-image: linear-gradient(to bottom,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+            padding: 3.5rem 0rem;
+            box-shadow: 0px 10px 20px rgba(160, 160, 160, 0.139);
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            color: white;
+            hr{
+                width: 80%;
+                border: 0.5px solid rgba(255, 255, 255, 0.651);
+            }
+            h2{
+                font-size: 18px;
+            }
+            .price2-monthly{
+                padding: 1.5rem 0rem;
+                display: flex;
+                align-items: center;
+                font-size: 65px;
+                span{
+                    font-size: 38px;
+                    padding-right: 0.5rem;
+                }
+            }
+            .hide{
+                display: none;
+            }
+            .price2-annually{
+                display: flex;
+                padding: 1.5rem 0rem;
+                align-items: center;
+                font-size: 65px;
+                display: none;
+                span{
+                    font-size: 38px;
+                    padding-right: 0.5rem;
+                }
+            }
+            .show{
+                display: flex;
+            }
+            p{
+                padding: 0.7rem 0rem;
+                font-size: 13px;
+            }
+            .learn-more{
+                width: 80%;
+                font-size: 13px;
+                letter-spacing: 0.1rem;
+                text-align: center;
+                padding: 0.7rem 0rem;
+                margin-top: 2.3rem;
+                color: hsl(237, 63%, 64%);
+                text-transform:uppercase ;
+                border-radius: 0.3rem;
+                background-color: white;
+                border: 1px solid hsl(237, 63%, 64%);
+            }
+            .learn-more:hover{
+                background-color: transparent;
+                color: hsl(0, 0%, 100%);
+                border: 1px solid hsl(0, 0%, 100%);
+            }
+        }
+        .sub-box3{
+            padding: 2rem 0rem;
+            border-radius: 0.5rem;
+            background-color: white;
+            width: 33%;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            color: $DarkGrayishBlue;
+            box-shadow: 0px 10px 20px rgba(160, 160, 160, 0.139);
+            hr{
+                width: 80%;
+                border: 0.5px solid rgba(201, 201, 201, 0.651);
+            }
+            h2{
+                font-size: 18px;
+            }
+            .price3-monthly{
+                padding: 1.5rem 0rem;
+                display: flex;
+                align-items: center;
+                font-size: 65px;
+                span{
+                    font-size: 38px;
+                    padding-right: 0.5rem;
+                }
+            }
+            .hide{
+                display: none;
+            }
+            .price3-annually{
+                display: flex;
+                padding: 1.5rem 0rem;
+                align-items: center;
+                font-size: 65px;
+                display: none;
+                span{
+                    font-size: 38px;
+                    padding-right: 0.5rem;
+                }
+            }
+            .show{
+                display: flex;
+            }
+            p{
+                padding: 0.7rem 0rem;
+                font-size: 13px;
+            }
+            .learn-more{
+                width: 80%;
+                font-size: 13px;
+                letter-spacing: 0.1rem;
+                text-align: center;
+                padding: 0.7rem 0rem;
+                margin-top: 2.3rem;
+                color: white;
+                text-transform:uppercase ;
+                border-radius: 0.3rem;
+                background-image: linear-gradient(to bottom,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+                background: linear-gradient(to bottom,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+            }
+            .learn-more:hover{
+                background-image: none;
+                background-color: white;
+                color: hsl(237, 63%, 64%);
+                border: 1px solid hsl(237, 63%, 64%);
+            }
+        }
+    }
+    
+
+}

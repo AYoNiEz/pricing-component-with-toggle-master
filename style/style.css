@@ -1,0 +1,522 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f6f6fe;
+  background-image: url(/images/bg-top.svg), url(/images/bg-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: top right, bottom left;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .header {
+  font-size: 30px;
+  color: #636678;
+}
+
+.container .toggle h3 {
+  font-size: 15px;
+  color: #b3b5c6;
+}
+
+.container .box {
+  width: 1000px;
+  height: 500px;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box .sub-box1 {
+  padding: 2rem 0rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  width: 33%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #494c5f;
+  -webkit-box-shadow: 0px 10px 20px rgba(160, 160, 160, 0.139);
+          box-shadow: 0px 10px 20px rgba(160, 160, 160, 0.139);
+}
+
+.container .box .sub-box1 hr {
+  width: 80%;
+  border: 0.5px solid rgba(201, 201, 201, 0.651);
+}
+
+.container .box .sub-box1 h2 {
+  font-size: 18px;
+}
+
+.container .box .sub-box1 .price1-monthly {
+  padding: 1.5rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 65px;
+}
+
+.container .box .sub-box1 .price1-monthly span {
+  font-size: 38px;
+  padding-right: 0.5rem;
+}
+
+.container .box .sub-box1 .hide {
+  display: none;
+}
+
+.container .box .sub-box1 .price1-annually {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5rem 0rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 65px;
+  display: none;
+}
+
+.container .box .sub-box1 .price1-annually span {
+  font-size: 38px;
+  padding-right: 0.5rem;
+}
+
+.container .box .sub-box1 .show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .box .sub-box1 p {
+  padding: 0.7rem 0rem;
+  font-size: 13px;
+}
+
+.container .box .sub-box1 .learn-more {
+  width: 80%;
+  font-size: 13px;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  padding: 0.7rem 0rem;
+  margin-top: 2.3rem;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 0.3rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to bottom, #a3a8f0, #696fdd);
+  background: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(to bottom, #a3a8f0, #696fdd);
+}
+
+.container .box .sub-box1 .learn-more:hover {
+  background-image: none;
+  background-color: white;
+  color: #696fdd;
+  border: 1px solid #696fdd;
+}
+
+.container .box .sub-box2 {
+  height: 450px;
+  border-radius: 0.5rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to bottom, #a3a8f0, #696fdd);
+  padding: 3.5rem 0rem;
+  -webkit-box-shadow: 0px 10px 20px rgba(160, 160, 160, 0.139);
+          box-shadow: 0px 10px 20px rgba(160, 160, 160, 0.139);
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.container .box .sub-box2 hr {
+  width: 80%;
+  border: 0.5px solid rgba(255, 255, 255, 0.651);
+}
+
+.container .box .sub-box2 h2 {
+  font-size: 18px;
+}
+
+.container .box .sub-box2 .price2-monthly {
+  padding: 1.5rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 65px;
+}
+
+.container .box .sub-box2 .price2-monthly span {
+  font-size: 38px;
+  padding-right: 0.5rem;
+}
+
+.container .box .sub-box2 .hide {
+  display: none;
+}
+
+.container .box .sub-box2 .price2-annually {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5rem 0rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 65px;
+  display: none;
+}
+
+.container .box .sub-box2 .price2-annually span {
+  font-size: 38px;
+  padding-right: 0.5rem;
+}
+
+.container .box .sub-box2 .show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .box .sub-box2 p {
+  padding: 0.7rem 0rem;
+  font-size: 13px;
+}
+
+.container .box .sub-box2 .learn-more {
+  width: 80%;
+  font-size: 13px;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  padding: 0.7rem 0rem;
+  margin-top: 2.3rem;
+  color: #696fdd;
+  text-transform: uppercase;
+  border-radius: 0.3rem;
+  background-color: white;
+  border: 1px solid #696fdd;
+}
+
+.container .box .sub-box2 .learn-more:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.container .box .sub-box3 {
+  padding: 2rem 0rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  width: 33%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #494c5f;
+  -webkit-box-shadow: 0px 10px 20px rgba(160, 160, 160, 0.139);
+          box-shadow: 0px 10px 20px rgba(160, 160, 160, 0.139);
+}
+
+.container .box .sub-box3 hr {
+  width: 80%;
+  border: 0.5px solid rgba(201, 201, 201, 0.651);
+}
+
+.container .box .sub-box3 h2 {
+  font-size: 18px;
+}
+
+.container .box .sub-box3 .price3-monthly {
+  padding: 1.5rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 65px;
+}
+
+.container .box .sub-box3 .price3-monthly span {
+  font-size: 38px;
+  padding-right: 0.5rem;
+}
+
+.container .box .sub-box3 .hide {
+  display: none;
+}
+
+.container .box .sub-box3 .price3-annually {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5rem 0rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 65px;
+  display: none;
+}
+
+.container .box .sub-box3 .price3-annually span {
+  font-size: 38px;
+  padding-right: 0.5rem;
+}
+
+.container .box .sub-box3 .show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .box .sub-box3 p {
+  padding: 0.7rem 0rem;
+  font-size: 13px;
+}
+
+.container .box .sub-box3 .learn-more {
+  width: 80%;
+  font-size: 13px;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  padding: 0.7rem 0rem;
+  margin-top: 2.3rem;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 0.3rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to bottom, #a3a8f0, #696fdd);
+  background: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(to bottom, #a3a8f0, #696fdd);
+}
+
+.container .box .sub-box3 .learn-more:hover {
+  background-image: none;
+  background-color: white;
+  color: #696fdd;
+  border: 1px solid #696fdd;
+}
+
+.toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0rem;
+  /* Rounded sliders */
+}
+
+.toggle .switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 23px;
+  margin: 0rem 1rem;
+}
+
+.toggle .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.toggle .slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 24px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.toggle .slider:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+  opacity: 0.7;
+}
+
+.toggle input:checked + .slider {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+}
+
+.toggle input:focus + .slider {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+}
+
+.toggle input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  transform: translateX(-20px);
+}
+
+.toggle .slider.round {
+  border-radius: 34px;
+}
+
+.toggle .slider.round:before {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 100vw;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-position: top right -200px, bottom left;
+  }
+  body main {
+    width: 100%;
+  }
+  body main .container {
+    width: 100%;
+    padding: 5rem 0rem;
+  }
+  body main .container .box {
+    width: 95%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main .container .box .sub-box1 {
+    height: auto;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  body main .container .box .sub-box1 p {
+    padding: 1rem;
+  }
+  body main .container .box .sub-box2 {
+    height: auto;
+    width: 100%;
+    margin-bottom: 3rem;
+    padding: 2rem 0rem;
+  }
+  body main .container .box .sub-box2 p {
+    padding: 1rem;
+  }
+  body main .container .box .sub-box3 {
+    height: auto;
+    width: 100%;
+  }
+  body main .container .box .sub-box3 p {
+    padding: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
